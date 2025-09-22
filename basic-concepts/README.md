@@ -40,7 +40,7 @@ Below is the basic syntax of HCL:
 ```
 
 A block contains information about infrastructure platform and set of resources within that platform using the following format:
-```
+```hcl
 <Block name, e.g., resource> <resource type> <resource name> {
 	// resource specific arguments
 	Key1 =  value1
@@ -48,7 +48,7 @@ A block contains information about infrastructure platform and set of resources 
 }
 ```
 For example:
-```yaml
+```hcl
 resource “aws_instance” “webserver”{
 	// resource specific arguments
 	Key1 =  value1
